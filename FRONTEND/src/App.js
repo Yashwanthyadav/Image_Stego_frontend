@@ -6,7 +6,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [decodedText, setDecodedText] = useState("");
 
-  const backend = "https://your-backend.onrender.com";
+  const backend = "https://image-stego-backend.onrender.com";
 
   const handleEncode = async () => {
     if (!encodeImage || !message) return;
